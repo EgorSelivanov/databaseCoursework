@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.SearchOrderGUI">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="16" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="454"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6ef62" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Введите данные фамилии, имени и отчества (при наличии):"/>
+        </properties>
+      </component>
+      <grid id="fc317" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="85215" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Фамилия:"/>
+            </properties>
+          </component>
+          <component id="dcd64" class="javax.swing.JTextField" binding="textFieldSurname">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+          <component id="8504e" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Имя:"/>
+            </properties>
+          </component>
+          <component id="fc366" class="javax.swing.JTextField" binding="textFieldName">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+          <component id="8e651" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Отчество:"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="68b58" class="javax.swing.JTextField" binding="textFieldPatronymic">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="73fd9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Заказы:"/>
+        </properties>
+      </component>
+      <scrollpane id="7b1ef">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="dcc4b" class="javax.swing.JTable" binding="tableOrder">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="7e8a0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Клиент:"/>
+        </properties>
+      </component>
+      <scrollpane id="6ca2d">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9ac6" class="javax.swing.JTable" binding="tableClient">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="7ce1a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сотрудник:"/>
+        </properties>
+      </component>
+      <scrollpane id="9b61e">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bbda2" class="javax.swing.JTable" binding="tableEmployee">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="4b9de" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Билеты:"/>
+        </properties>
+      </component>
+      <scrollpane id="d37b3">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8eab0" class="javax.swing.JTable" binding="tableTickets">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="480b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Отель:"/>
+        </properties>
+      </component>
+      <scrollpane id="55f5f">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7fe93" class="javax.swing.JTable" binding="tableHotel">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="cb3ab" class="javax.swing.JButton" binding="buttonSearch">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Найти"/>
+        </properties>
+      </component>
+      <component id="d5e97" class="javax.swing.JButton" binding="buttonGetInfo">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Получить подробные данные"/>
+        </properties>
+      </component>
+      <component id="f9ae8" class="javax.swing.JLabel" binding="labelForMessages">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d7ee" class="javax.swing.JButton" binding="buttonBack">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Назад"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
